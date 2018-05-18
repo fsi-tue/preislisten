@@ -1,0 +1,115 @@
+\documentclass[extrafontsizes,25pt]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage{eurosym}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\geometry{a4paper,left=25mm,right=25mm, top=2cm, bottom=3cm}
+\usepackage{graphicx}
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+	%%%%%%%%%%%%%%%%%%%%%%%%%
+	%% Preisliste Bier-Bar %%
+	%%%%%%%%%%%%%%%%%%%%%%%%%
+	\thispagestyle{empty}
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{logos.pdf}\\
+	\vspace*{1cm}
+	\begin{huge}
+		\textbf{Preisliste}
+	\end{huge}\\
+	\vspace*{0.5cm}
+	\begin{Large}
+	\begin{tabular}{m{12cm}m{2cm}}
+		Wulle & \EUR{2} \\
+		Rothaus & \EUR{2} \\
+		Radler & \EUR{2} \\
+		~ & ~ \\
+		Cola & \EUR{2} \\
+		Wasser & \EUR{1} \\
+		~ & ~ \\
+		Pfand	& \EUR{1}\\
+	\end{tabular}
+\end{Large}
+\vspace*{0.5cm}\\
+
+\begin{large}
+	(\EUR{1} Pfand auf jede Flasche)
+\end{large}
+\end{center}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Preisliste alles  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{logos.pdf}\\
+	\vspace*{1cm}
+	\begin{Large}
+		\textbf{Preisliste}
+	%\vspace*{0.5cm}
+		\begin{tabular}{m{12cm}m{2cm}}
+			Wulle & \EUR{2} \\
+			Rothaus & \EUR{2} \\
+			Radler & \EUR{2} \\
+			Cola & \EUR{2} \\
+			Wasser & \EUR{1} \\
+			~ & ~ \\
+			Pfand	& \EUR{1}\\
+			~ & ~ \\
+			~ & ~ \\
+			HeyIchBinDori & \EUR{2}\\
+			Sekt & \EUR{2} \\
+			Weißwein & \EUR{1,50}
+		\end{tabular}
+	\end{Large}
+\end{center}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Preisliste Sektbar %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{logos.pdf}\\
+	\vspace*{1cm}
+	\begin{huge}
+		\textbf{Preisliste}
+	\end{huge}\\
+	\vspace*{2cm}
+	\begin{Large}
+		\begin{tabular}{m{12cm}m{2cm}}
+			HeyIchBinDori & \EUR{2}\\
+			Sekt & \EUR{2} \\
+			Weißwein & \EUR{1,50}
+			\end{tabular}
+	\end{Large}
+\end{center}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Preisliste Brezeln (Querformat) %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+% Preisliste im Querformat
+\begin{landscape}
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{logos.pdf}\\
+		\vspace*{1cm}
+		\begin{Huge}
+			\textbf{Preisliste}
+		\end{Huge}\\
+		\vspace*{1cm}
+		\begin{huge}
+			\begin{tabular}{m{17cm}m{4cm}}
+				Brezel ohne Butter & \EUR{1,50}\\
+				Brezel mit Butter & \EUR{2}
+			\end{tabular}
+		\end{huge}
+	\end{center}
+\end{landscape}
+\end{document}
