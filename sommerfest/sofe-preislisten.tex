@@ -1,0 +1,130 @@
+\documentclass[extrafontsizes,25pt]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage{eurosym}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\geometry{a4paper,left=20mm,right=20mm, top=2cm, bottom=2cm}
+\usepackage{graphicx}
+\usepackage{multirow}
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+	%%%%%%%%%%%%%%%%%%%%%%%%%
+	%% Preisliste Bier-Bar %%
+	%%%%%%%%%%%%%%%%%%%%%%%%%
+	\thispagestyle{empty}
+\begin{center}
+	\includegraphics[page=1, width=\textwidth]{logos.pdf}
+	\vspace*{1cm}
+	%\begin{huge}
+	%	\textbf{Preisliste}
+	%\end{huge}\\
+	\includegraphics[page=3, width=\textwidth]{logos.pdf}
+	\vspace*{0.5cm}
+	\begin{large}
+	\begin{tabular}{m{12cm}m{2cm}}
+		Halbe (Export) & \EUR{2,50} \\
+		Weizen & \EUR{2,50} \\
+		alkoholfreies Bier \begin{scriptsize}
+			(Clausthaler)\end{scriptsize} & \EUR{2,00} \\
+		~ & ~ \\
+		Cola (0,5l) & \EUR{2,00} \\
+		Spezi (0,5l) & \EUR{2,00} \\
+		Limonade (0,5l) & \EUR{2,00} \\
+		Wasser (0,5l) & \EUR{1,00} \\
+	\end{tabular}
+\end{large}
+\vspace*{0.5cm}
+
+
+(\textbf{\EUR{1} Pfand} auf jede Flasche und jedes Glas)
+\end{center}
+\newpage
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%
+	%% Preisliste Essen   %%
+	%%%%%%%%%%%%%%%%%%%%%%%%%
+	\thispagestyle{empty}
+	\begin{center}
+		\includegraphics[page=1, width=\textwidth]{logos.pdf}
+		\vspace*{1cm}
+		%\begin{huge}
+		%	\textbf{Preisliste}
+		%\end{huge}\\
+		\includegraphics[page=4, width=\textwidth]{logos.pdf}
+		\vspace*{0.5cm}
+		\begin{Large}
+			% 1 Marke ist 2€
+			\begin{tabular}{m{12cm}m{3cm}}
+				Pizza (Viertel) & \EUR{2,00} \\
+				~	& \begin{small}1 Marke 
+					\end{small} \\
+				Pizza (Ganze) & \EUR{6,00} \\
+				~ & \begin{small}
+					3 Marken \end{small} \\
+					~ & ~ \\ 
+				Bratwurst im Brötchen & \EUR{2,00} \\
+				~	& \begin{small}1 Marke 
+				\end{small} \\
+				Grillkäse im Brötchen & \EUR{2,00} \\
+				~	& \begin{small}1 Marke 
+				\end{small} \\
+			\end{tabular}
+		\end{Large}
+		\vspace*{0.5cm}
+		
+		\begin{large}
+			(\textbf{\EUR{2} Pfand} auf Teller)
+		\end{large}
+	\end{center}
+	\newpage
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%
+	%% Preisliste Cocktail %%
+	%%%%%%%%%%%%%%%%%%%%%%%%%
+	\thispagestyle{empty}
+	\begin{center}
+		\includegraphics[page=1, width=\textwidth]{logos.pdf}
+		%\begin{huge}
+		%	\textbf{Preisliste}
+		%\end{huge}\\
+		\includegraphics[page=2, width=\textwidth]{logos.pdf}
+			\renewcommand{\arraystretch}{1.2}
+			\begin{tabular}{m{14cm}m{2cm}}
+				\textbf{Longdrink} (0,4l) & \textbf{\EUR{4,00}} \\
+				\begin{footnotesize}
+					(Wodka / Rum / Whiskey) mit (Cola / Sprite / Ginger Ale)\end{footnotesize} & ~ \\
+				\textbf{Erfrischender Pinguin} (0,4l) & \textbf{\EUR{4,00}} \\
+				\begin{scriptsize}
+					Wodka, Gin, Apricot Brandy, Grenadine, Limettensaft, Ginger Ale\end{scriptsize} & ~ \\
+				
+				\textbf{Green Goblin} (0,4l) & \textbf{\EUR{4,00}} \\
+				\begin{footnotesize}
+				Blue Cura\c{c}ao, Wodka, Limettensaft, Maracujasaft
+					\end{footnotesize} & ~ \\
+					
+				\textbf{Blue Screen of Death} (0,4l) & \textbf{\EUR{4,00}} \\
+				\begin{footnotesize}
+					Blue Cura\c{c}ao, Wodka, Sprite, Zitronensaft
+				\end{footnotesize} & ~ \\
+				
+				\textbf{Ipanema} (0,4l) \begin{small}
+					(alkoholfrei)
+				\end{small} & \textbf{\EUR{3,00}} \\
+				\begin{footnotesize}
+					Limette, Rohrzucker, Ginger Ale
+				\end{footnotesize} & ~ \\
+				
+				\textbf{Planters Wonder} (0,4l) \begin{small}
+					(alkoholfrei)
+				\end{small} & \textbf{\EUR{3,00}} \\
+				\begin{scriptsize}
+					Grenadine, Zitronensaft, Ananassaft, Orangensaft, Maracujasaft
+				\end{scriptsize} & ~ \\
+			\end{tabular}
+\medskip \\ 
+			(\textbf{\EUR{1} Pfand} auf jedes Glas)
+	\end{center}
+\end{document}
